@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * print_alphabet - Prints alphabets 'a-z'
  */
@@ -10,13 +10,8 @@ void print_alphabet(void)
 
 	for (a = 'a'; a <= 'z'; a++)
 	{
-		putchar(a);
+		_putchar(a);
 	}
 
-	putchar('\n');
-
-}
-int main(void)
-{
-	printf("The Alphabets are: %s\n", print_alphabet);
+	_putchar('\n');
 }

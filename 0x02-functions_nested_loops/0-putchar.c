@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 
 
 /**
@@ -15,10 +15,10 @@ int main(void)
 
 	while (b < 9)
 	{
-		putchar(a[b]);
+		_putchar(a[b]);
 		b++;
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
